@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle\Transformer;
+namespace codicastudio\Throttle\Transformer;
 
-use GrahamCampbell\Throttle\Data;
+use codicastudio\Throttle\Data;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
 
@@ -33,7 +33,7 @@ class ArrayTransformer implements TransformerInterface
      *
      * @throws \InvalidArgumentException
      *
-     * @return \GrahamCampbell\Throttle\Data
+     * @return \codicastudio\Throttle\Data
      */
     public function transform($data, int $limit = 10, int $time = 60)
     {

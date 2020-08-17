@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle\Throttler;
+namespace codicastudio\Tests\Throttle\Throttler;
 
-use GrahamCampbell\TestBench\AbstractTestCase;
-use GrahamCampbell\Throttle\Throttler\CacheThrottler;
+use codicastudio\TestBench\AbstractTestCase;
+use codicastudio\Throttle\Throttler\CacheThrottler;
 use Illuminate\Contracts\Cache\Store;
 use Mockery;
 

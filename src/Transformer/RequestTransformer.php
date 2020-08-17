@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle\Transformer;
+namespace codicastudio\Throttle\Transformer;
 
-use GrahamCampbell\Throttle\Data;
+use codicastudio\Throttle\Data;
 
 /**
  * This is the request transformer class.
@@ -29,7 +29,7 @@ class RequestTransformer implements TransformerInterface
      * @param int                      $limit
      * @param int                      $time
      *
-     * @return \GrahamCampbell\Throttle\Data
+     * @return \codicastudio\Throttle\Data
      */
     public function transform($data, int $limit = 10, int $time = 60)
     {

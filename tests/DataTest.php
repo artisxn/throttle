@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle;
+namespace codicastudio\Tests\Throttle;
 
-use GrahamCampbell\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
-use GrahamCampbell\Throttle\Data;
+use codicastudio\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
+use codicastudio\Throttle\Data;
 
 /**
  * This is the data test class.

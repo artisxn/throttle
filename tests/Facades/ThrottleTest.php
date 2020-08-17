@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle\Facades;
+namespace codicastudio\Tests\Throttle\Facades;
 
-use GrahamCampbell\TestBenchCore\FacadeTrait;
-use GrahamCampbell\Tests\Throttle\AbstractTestCase;
-use GrahamCampbell\Throttle\Facades\Throttle as Facade;
-use GrahamCampbell\Throttle\Throttle;
+use codicastudio\TestBenchCore\FacadeTrait;
+use codicastudio\Tests\Throttle\AbstractTestCase;
+use codicastudio\Throttle\Facades\Throttle as Facade;
+use codicastudio\Throttle\Throttle;
 
 /**
  * This is the throttle facade test class.

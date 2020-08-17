@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle;
+namespace codicastudio\Tests\Throttle;
 
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use GrahamCampbell\Throttle\ThrottleServiceProvider;
+use codicastudio\TestBench\AbstractPackageTestCase;
+use codicastudio\Throttle\ThrottleServiceProvider;
 
 /**
  * This is the abstract test case class.

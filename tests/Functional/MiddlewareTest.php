@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle\Functional;
+namespace codicastudio\Tests\Throttle\Functional;
 
-use GrahamCampbell\Tests\Throttle\AbstractTestCase;
-use GrahamCampbell\Throttle\Http\Middleware\ThrottleMiddleware;
+use codicastudio\Tests\Throttle\AbstractTestCase;
+use codicastudio\Throttle\Http\Middleware\ThrottleMiddleware;
 use Symfony\Component\HttpKernel\Exception\TooManyRequestsHttpException;
 
 /**

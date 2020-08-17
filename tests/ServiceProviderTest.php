@@ -11,15 +11,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle;
+namespace codicastudio\Tests\Throttle;
 
-use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use GrahamCampbell\Throttle\Factory\CacheFactory;
-use GrahamCampbell\Throttle\Factory\FactoryInterface;
-use GrahamCampbell\Throttle\Http\Middleware\ThrottleMiddleware;
-use GrahamCampbell\Throttle\Throttle;
-use GrahamCampbell\Throttle\Transformer\TransformerFactory;
-use GrahamCampbell\Throttle\Transformer\TransformerFactoryInterface;
+use codicastudio\TestBenchCore\ServiceProviderTrait;
+use codicastudio\Throttle\Factory\CacheFactory;
+use codicastudio\Throttle\Factory\FactoryInterface;
+use codicastudio\Throttle\Http\Middleware\ThrottleMiddleware;
+use codicastudio\Throttle\Throttle;
+use codicastudio\Throttle\Transformer\TransformerFactory;
+use codicastudio\Throttle\Transformer\TransformerFactoryInterface;
 
 /**
  * This is the service provider test class.

@@ -1,12 +1,17 @@
 {
-    "name": "graham-campbell/throttle",
-    "description": "Throttle Is A Rate Limiter For Laravel",
-    "keywords": ["laravel", "framework", "rate limit", "throttle", "throttling", "Throttle", "Laravel Throttle", "Laravel-Throttle", "Graham Campbell", "GrahamCampbell"],
+    "name": "codicastudio/throttle",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "homepage": "https://github.com/codicastudio/throttle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Graham Campbell",
-            "email": "graham@alt-three.com"
+            "name": "Michael J Brown",
+            "email": "codicastudiodev@gmail.com",
+            "homepage": "https://codicastudio.dev",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -24,13 +29,17 @@
     },
     "autoload": {
         "psr-4": {
-            "GrahamCampbell\\Throttle\\": "src/"
+            "codicastudio\\Throttle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GrahamCampbell\\Tests\\Throttle\\": "tests/"
+            "codicastudio\\Tests\\Throttle\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
         "preferred-install": "dist"
@@ -38,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GrahamCampbell\\Throttle\\ThrottleServiceProvider"
+                "codicastudio\\Throttle\\ThrottleServiceProvider"
             ]
         }
     },

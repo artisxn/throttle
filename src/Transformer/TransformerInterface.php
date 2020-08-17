@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle\Transformer;
+namespace codicastudio\Throttle\Transformer;
 
 /**
  * This is the transformer interface.
@@ -27,7 +27,7 @@ interface TransformerInterface
      * @param int                            $limit
      * @param int                            $time
      *
-     * @return \GrahamCampbell\Throttle\Data
+     * @return \codicastudio\Throttle\Data
      */
     public function transform($data, int $limit = 10, int $time = 60);
 }

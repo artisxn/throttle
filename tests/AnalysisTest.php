@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle;
+namespace codicastudio\Tests\Throttle;
 
-use GrahamCampbell\Analyzer\AnalysisTrait;
+use codicastudio\Analyzer\AnalysisTrait;
 use Laravel\Lumen\Application;
 use PHPUnit\Framework\TestCase;
 

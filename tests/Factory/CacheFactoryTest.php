@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle\Factory;
+namespace codicastudio\Tests\Throttle\Factory;
 
-use GrahamCampbell\TestBench\AbstractTestCase;
-use GrahamCampbell\Throttle\Data;
-use GrahamCampbell\Throttle\Factory\CacheFactory;
-use GrahamCampbell\Throttle\Throttler\CacheThrottler;
+use codicastudio\TestBench\AbstractTestCase;
+use codicastudio\Throttle\Data;
+use codicastudio\Throttle\Factory\CacheFactory;
+use codicastudio\Throttle\Throttler\CacheThrottler;
 use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Contracts\Cache\Store;
 use Mockery;

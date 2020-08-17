@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle\Transformer;
+namespace codicastudio\Tests\Throttle\Transformer;
 
-use GrahamCampbell\TestBench\AbstractTestCase;
-use GrahamCampbell\Throttle\Data;
-use GrahamCampbell\Throttle\Transformer\ArrayTransformer;
-use GrahamCampbell\Throttle\Transformer\RequestTransformer;
-use GrahamCampbell\Throttle\Transformer\TransformerFactory;
+use codicastudio\TestBench\AbstractTestCase;
+use codicastudio\Throttle\Data;
+use codicastudio\Throttle\Transformer\ArrayTransformer;
+use codicastudio\Throttle\Transformer\RequestTransformer;
+use codicastudio\Throttle\Transformer\TransformerFactory;
 use Illuminate\Http\Request;
 use InvalidArgumentException;
 use Mockery;

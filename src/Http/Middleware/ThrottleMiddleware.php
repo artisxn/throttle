@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle\Http\Middleware;
+namespace codicastudio\Throttle\Http\Middleware;
 
 use Closure;
-use GrahamCampbell\Throttle\Throttle;
+use codicastudio\Throttle\Throttle;
 use Symfony\Component\HttpKernel\Exception\TooManyRequestsHttpException;
 
 /**
@@ -27,14 +27,14 @@ class ThrottleMiddleware
     /**
      * The throttle instance.
      *
-     * @var \GrahamCampbell\Throttle\Throttle
+     * @var \codicastudio\Throttle\Throttle
      */
     protected $throttle;
 
     /**
      * Create a new throttle middleware instance.
      *
-     * @param \GrahamCampbell\Throttle\Throttle $throttle
+     * @param \codicastudio\Throttle\Throttle $throttle
      *
      * @return void
      */

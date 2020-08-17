@@ -11,12 +11,12 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle;
+namespace codicastudio\Throttle;
 
-use GrahamCampbell\Throttle\Factory\CacheFactory;
-use GrahamCampbell\Throttle\Factory\FactoryInterface;
-use GrahamCampbell\Throttle\Transformer\TransformerFactory;
-use GrahamCampbell\Throttle\Transformer\TransformerFactoryInterface;
+use codicastudio\Throttle\Factory\CacheFactory;
+use codicastudio\Throttle\Factory\FactoryInterface;
+use codicastudio\Throttle\Transformer\TransformerFactory;
+use codicastudio\Throttle\Transformer\TransformerFactoryInterface;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;

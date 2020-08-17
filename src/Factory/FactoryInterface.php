@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle\Factory;
+namespace codicastudio\Throttle\Factory;
 
-use GrahamCampbell\Throttle\Data;
+use codicastudio\Throttle\Data;
 
 /**
  * This is the throttler factory interface.
@@ -25,9 +25,9 @@ interface FactoryInterface
     /**
      * Make a new throttler instance.
      *
-     * @param \GrahamCampbell\Throttle\Data $data
+     * @param \codicastudio\Throttle\Data $data
      *
-     * @return \GrahamCampbell\Throttle\Throttler\ThrottlerInterface
+     * @return \codicastudio\Throttle\Throttler\ThrottlerInterface
      */
     public function make(Data $data);
 }

@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Throttle\Factory;
+namespace codicastudio\Throttle\Factory;
 
-use GrahamCampbell\Throttle\Data;
-use GrahamCampbell\Throttle\Throttler\CacheThrottler;
+use codicastudio\Throttle\Data;
+use codicastudio\Throttle\Throttler\CacheThrottler;
 use Illuminate\Contracts\Cache\Repository;
 
 /**
@@ -46,9 +46,9 @@ class CacheFactory implements FactoryInterface
     /**
      * Make a new cache throttler instance.
      *
-     * @param \GrahamCampbell\Throttle\Data $data
+     * @param \codicastudio\Throttle\Data $data
      *
-     * @return \GrahamCampbell\Throttle\Throttler\CacheThrottler
+     * @return \codicastudio\Throttle\Throttler\CacheThrottler
      */
     public function make(Data $data)
     {

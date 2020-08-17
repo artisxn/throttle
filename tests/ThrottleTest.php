@@ -11,15 +11,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace GrahamCampbell\Tests\Throttle;
+namespace codicastudio\Tests\Throttle;
 
-use GrahamCampbell\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
-use GrahamCampbell\Throttle\Data;
-use GrahamCampbell\Throttle\Factory\CacheFactory;
-use GrahamCampbell\Throttle\Throttle;
-use GrahamCampbell\Throttle\Throttler\CacheThrottler;
-use GrahamCampbell\Throttle\Transformer\ArrayTransformer;
-use GrahamCampbell\Throttle\Transformer\TransformerFactoryInterface;
+use codicastudio\TestBench\AbstractTestCase as AbstractTestBenchTestCase;
+use codicastudio\Throttle\Data;
+use codicastudio\Throttle\Factory\CacheFactory;
+use codicastudio\Throttle\Throttle;
+use codicastudio\Throttle\Throttler\CacheThrottler;
+use codicastudio\Throttle\Transformer\ArrayTransformer;
+use codicastudio\Throttle\Transformer\TransformerFactoryInterface;
 use Mockery;
 
 /**
